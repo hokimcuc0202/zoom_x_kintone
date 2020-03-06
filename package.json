@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack --watch"
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +22,9 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "axios": "^0.19.2"
+    "@kintone/kintone-ui-component": "^0.6.0",
+    "axios": "^0.19.2",
+    "css-loader": "^3.4.2",
+    "style-loader": "^1.1.3"
   }
 }
